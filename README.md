@@ -21,7 +21,7 @@ the dedicated load_cvae method.
 
 ## Example
 The script train_cvae provides a baseline example. It mostly
-reimplements the network provided in (this paper)[https://arxiv.org/abs/1909.06296].
+reimplements the network provided in [this paper](https://arxiv.org/abs/1909.06296).
 
 In the beginning the output distributions are defined. Afterwards the
 three distinct networks for the CVAE are defined. The get_handler method
@@ -31,7 +31,7 @@ files are expected to be HDF-files that contain at least two dataset
 'y_data_noisefree' (whitened pure waveforms that are NOT scaled) and
 'x_data' (the true values). Right now the network outputs the
 right ascension and declination in the form of a unit vector in 3D. See
-(https://github.com/hagabbar/vitamin_b)[https://github.com/hagabbar/vitamin_b]
+[https://github.com/hagabbar/vitamin_b](https://github.com/hagabbar/vitamin_b)
 for details on the implementation of the data.
 
 Finally, the model is trained and saved on every epoch. It also shows
